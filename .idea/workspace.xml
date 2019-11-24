@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9707c9d-b091-46b3-8ab8-1e14050cfc2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f9707c9d-b091-46b3-8ab8-1e14050cfc2b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,27 +185,6 @@
               <item name="memories" type="b2602c69:ProjectViewProjectNode" />
               <item name="memories" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="memories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memories" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memories" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memories" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memories" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memories" type="462c0819:PsiDirectoryNode" />
-              <item name="memories" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -295,16 +272,15 @@
       <option name="presentableId" value="Default" />
       <updated>1574479124838</updated>
       <workItem from="1574479144025" duration="3545000" />
-      <workItem from="1574491303146" duration="22695000" />
+      <workItem from="1574491303146" duration="23405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26240000" />
+    <option name="totallyTimeSpent" value="26950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21001616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -320,7 +296,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2594417" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.49753696" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
