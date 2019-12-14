@@ -26,7 +26,7 @@ SECRET_KEY = '^8z!(2w=w+5_8b&vkcsp19p*7az_5#wcfj64b)pmc(wr+i$af&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['memoryjournalapp.herokuapp.com']
+ALLOWED_HOSTS = ['memoryjournalapp.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -147,6 +147,9 @@ JWT_AUTH = {
 
 CORS_ORIGIN_ALLOW_ALL = True
 AUTH_USER_MODEL = 'accounts.User'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
 # CORS_ORIGIN_WHITELIST = (
 #     'http://localhost:3000',

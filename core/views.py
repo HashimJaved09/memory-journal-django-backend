@@ -7,25 +7,14 @@ from .models import Memory
 from .serializers import MemorySerializer
 
 
-class GlobalMemoryView(APIView):
-    serializer_class = MemorySerializer
-    model_class = Memory
-
-    def get_objects(self):
-        return self.model_class.objects.filter(is_active=True)
-
-    def get(self, request, format=None):
-        serializer = self.serializer_class(self.get_objects(), many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
-
-
 class MemoryView(APIView):
     serializer_class = MemorySerializer
     model_class = Memory
 
     def post(self, request, format='json'):
-        dict_data = request.data
-        dict_data['user'] = request.user.id
+        request.data['user'] = request.user.id
+
+
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
             user = serializer.save()
@@ -35,7 +24,7 @@ class MemoryView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def get_objects(self, request):
-        return self.model_class.objects.filter(user=request.user, is_active=True)
+        return self.model_class.objects.filter(user=request.user)
 
     def get(self, request, format=None):
         serializer = self.serializer_class(self.get_objects(request), many=True)

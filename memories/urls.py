@@ -18,11 +18,13 @@ from django.contrib import admin
 from django.contrib.auth import views
 from django.urls import path
 from rest_framework_jwt.views import obtain_jwt_token
+from rest_framework_jwt.views import verify_jwt_token
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('token-auth/', obtain_jwt_token),
+    path('auth-jwt-verify/', verify_jwt_token),
     path('accounts/', include('accounts.urls')),
     path('core/', include('core.urls')),
 ]
